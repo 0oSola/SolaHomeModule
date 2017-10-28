@@ -1,0 +1,6 @@
+framework module SolaHomeModule {
+  umbrella header "SolaHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

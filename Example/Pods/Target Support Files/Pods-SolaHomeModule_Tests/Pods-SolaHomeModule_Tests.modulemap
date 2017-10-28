@@ -1,0 +1,6 @@
+framework module Pods_SolaHomeModule_Tests {
+  umbrella header "Pods-SolaHomeModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
