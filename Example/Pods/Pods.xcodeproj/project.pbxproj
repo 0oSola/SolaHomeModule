@@ -13,12 +13,13 @@
 		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */; };
 		0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F06A01667CB2C4762D1A47BB80EB01E /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F05FAB5FEA75BD28CD9D94FA0CCFBF5 /* TestController.m */; };
 		1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10DA6F5FAC097152DD5493A8540C7DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
-		1312AF7A745E47727C7B0DB5AA42EEC7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D93BFEB91113517FF764CB66A2CDF /* ReplaceMe.m */; };
 		146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */; };
 		150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		190F0D65DFEACBE891C8A27A9A088A33 /* SolaHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D972758975137C1F3A23360BDF093A /* SolaHomeModule-dummy.m */; };
 		19B6B108A674BD810C36A118644862C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
@@ -84,6 +85,7 @@
 		8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 389932E25AB5180C7024CD173A4B6D4B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B06A0A2F0A54E06FC07BCAC8CFCA52 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E72849BE7BB7787DC8C226209BDD6AF3 /* TestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9605A166839E5B582E5F4A08E786DF1F /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -112,7 +114,6 @@
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B73C8EDB1B5B1427068E67E4DDD82818 /* SolaHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D972758975137C1F3A23360BDF093A /* SolaHomeModule-dummy.m */; };
 		B89A19FA40C5F590F0AAD91908FD9DDB /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -133,9 +134,9 @@
 		D180489445C2C507332A6EE964ADA1E5 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 612DFA52478D8CE9C4866818C95C29E9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D490834AA1304BF36991A257F3366648 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */; };
 		D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D81CBD5AC88670791BF44CB073478875 /* SolaHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6562199C0F47ECFE196A12E67057477 /* SolaHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3AC44622BA623BBF9A03F61DF47524 /* SolaHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6562199C0F47ECFE196A12E67057477 /* SolaHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -286,6 +287,7 @@
 		5C48B5DC99EBD661A2F478F173ACA722 /* Pods-SolaHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SolaHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		5E61F0C06E6807EE9DB324F266909BED /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		5F05FAB5FEA75BD28CD9D94FA0CCFBF5 /* TestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		612DFA52478D8CE9C4866818C95C29E9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		65151D31448276A43462B5C47014D6AB /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
@@ -382,9 +384,9 @@
 		E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
+		E72849BE7BB7787DC8C226209BDD6AF3 /* TestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
 		EBB7EBB7F448B742CEA26E6FEB247A89 /* SolaHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolaHomeModule.xcconfig; sourceTree = "<group>"; };
 		EC5E53784EB01F41414D2A2FBF05361E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF6D93BFEB91113517FF764CB66A2CDF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F5DC11DB78C1AB6BFF2418B87292A15D /* SolaHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SolaHomeModule.modulemap; sourceTree = "<group>"; };
@@ -563,15 +565,6 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		2E300EE0C0CE50CB39A047CAEB1B3B4B /* SolaHomeModule */ = {
-			isa = PBXGroup;
-			children = (
-				70D6E4E53AFBD740D6F261397F9ED461 /* Classes */,
-			);
-			name = SolaHomeModule;
-			path = SolaHomeModule;
-			sourceTree = "<group>";
-		};
 		684C8DFA3F9FE0E3527D90FC04ED417F /* Pods-SolaHomeModule_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,13 +583,14 @@
 			path = "Target Support Files/Pods-SolaHomeModule_Tests";
 			sourceTree = "<group>";
 		};
-		70D6E4E53AFBD740D6F261397F9ED461 /* Classes */ = {
+		76159ABEA74CB9AEA1D545034EE913AF /* SolaHomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				EF6D93BFEB91113517FF764CB66A2CDF /* ReplaceMe.m */,
+				E72849BE7BB7787DC8C226209BDD6AF3 /* TestController.h */,
+				5F05FAB5FEA75BD28CD9D94FA0CCFBF5 /* TestController.m */,
 			);
-			name = Classes;
-			path = Classes;
+			name = SolaHomeModule;
+			path = SolaHomeModule;
 			sourceTree = "<group>";
 		};
 		778606D5FF2F934B11EBF31C35276646 /* FBSnapshotTestCase */ = {
@@ -704,6 +698,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		88730398293AB989B3686FF98AC28659 /* SolaHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				76159ABEA74CB9AEA1D545034EE913AF /* SolaHomeModule */,
+			);
+			name = SolaHomeModule;
+			path = SolaHomeModule;
+			sourceTree = "<group>";
+		};
 		A5146D344D0BDF4F9705D174EE7D3186 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,7 +765,7 @@
 		D7F108A132B2A8BDBF908E64B850BB2F /* SolaHomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				2E300EE0C0CE50CB39A047CAEB1B3B4B /* SolaHomeModule */,
+				88730398293AB989B3686FF98AC28659 /* SolaHomeModule */,
 				FA2FF6D783A6B98DCE04EF2DD4C0DFFD /* Support Files */,
 			);
 			name = SolaHomeModule;
@@ -876,6 +879,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5699A49862D0C0CEA043FFFB0930C551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3AC44622BA623BBF9A03F61DF47524 /* SolaHomeModule-umbrella.h in Headers */,
+				92B06A0A2F0A54E06FC07BCAC8CFCA52 /* TestController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92C66E50D1DF1922C3E4715260BA2FE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -964,14 +976,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAC2162835576A4988BB248FC0E52D51 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D81CBD5AC88670791BF44CB073478875 /* SolaHomeModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1017,9 +1021,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01A2114C1BA95EBEDFF36BB65554AD9 /* Build configuration list for PBXNativeTarget "SolaHomeModule" */;
 			buildPhases = (
-				B25692BE87F7ADECDFCD77A20ED59006 /* Sources */,
+				BDC71200CD7529A138CF8674C5C146CB /* Sources */,
 				E215F906B1E1BE96026A5C0A8A4F72BF /* Frameworks */,
-				EAC2162835576A4988BB248FC0E52D51 /* Headers */,
+				5699A49862D0C0CEA043FFFB0930C551 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1185,12 +1189,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B25692BE87F7ADECDFCD77A20ED59006 /* Sources */ = {
+		BDC71200CD7529A138CF8674C5C146CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1312AF7A745E47727C7B0DB5AA42EEC7 /* ReplaceMe.m in Sources */,
-				B73C8EDB1B5B1427068E67E4DDD82818 /* SolaHomeModule-dummy.m in Sources */,
+				190F0D65DFEACBE891C8A27A9A088A33 /* SolaHomeModule-dummy.m in Sources */,
+				0F06A01667CB2C4762D1A47BB80EB01E /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

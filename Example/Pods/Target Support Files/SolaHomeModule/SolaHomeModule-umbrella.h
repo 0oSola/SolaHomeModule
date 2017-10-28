@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestController.h"
 
 FOUNDATION_EXPORT double SolaHomeModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char SolaHomeModuleVersionString[];
