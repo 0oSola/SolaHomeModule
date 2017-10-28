@@ -13,7 +13,7 @@
 		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */; };
 		0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F06A01667CB2C4762D1A47BB80EB01E /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F439FCC930475CE301B06672117C96C /* TestController.m */; };
+		0F06A01667CB2C4762D1A47BB80EB01E /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D219D53E02CF0BE8F125CE24F1FD0A /* TestController.m */; };
 		1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10DA6F5FAC097152DD5493A8540C7DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
 		11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */; };
@@ -85,7 +85,7 @@
 		8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 389932E25AB5180C7024CD173A4B6D4B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92B06A0A2F0A54E06FC07BCAC8CFCA52 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05913616296D48AFCE074662D82F0149 /* TestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B06A0A2F0A54E06FC07BCAC8CFCA52 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB2FD719E49FFB63DB5020A90BE6F59 /* TestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9605A166839E5B582E5F4A08E786DF1F /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -219,7 +219,6 @@
 
 /* Begin PBXFileReference section */
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		05913616296D48AFCE074662D82F0149 /* TestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
 		05CDCE7A71F924132029AD8AEC5FFF5B /* Pods-SolaHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SolaHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		064F060F69CAB9B137EF2CBF4B193F65 /* Pods-SolaHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolaHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,10 +226,10 @@
 		07BC24DA84E3F15453DEC37314546A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F9EFEB666E17811502E737C322936C /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		080C213649CDBC588A697A8D8451F5A2 /* SolaHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SolaHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		08D219D53E02CF0BE8F125CE24F1FD0A /* TestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0AC28406A98D648999678E9A0CB5F898 /* SolaHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SolaHomeModule.framework; path = SolaHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
-		0F439FCC930475CE301B06672117C96C /* TestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		154EB7195BC72770DF6CE610B81A2296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
@@ -265,6 +264,7 @@
 		3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
+		3DB2FD719E49FFB63DB5020A90BE6F59 /* TestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		3E5CA004F4DF355EA4719088D8D69D6D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
@@ -565,23 +565,23 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		308292AC67B4AC3B63917BE2CBF52540 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				BDB6FAD74D2763524D1FD48A7AE41A4E /* Pods */,
-			);
-			name = Example;
-			path = Example;
-			sourceTree = "<group>";
-		};
 		44213275179DAB69A1F0663E4D5C4678 /* SolaHomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				308292AC67B4AC3B63917BE2CBF52540 /* Example */,
+				534928EB3B45D4656A37BD98B83A2052 /* Example */,
 				D75ED61726182ECECE2F7C533B948E4F /* Support Files */,
 			);
 			name = SolaHomeModule;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		534928EB3B45D4656A37BD98B83A2052 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6CE86DF7C23ACC8CC67E7DF3EF7CFC27 /* pod */,
+			);
+			name = Example;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		684C8DFA3F9FE0E3527D90FC04ED417F /* Pods-SolaHomeModule_Tests */ = {
@@ -602,14 +602,13 @@
 			path = "Target Support Files/Pods-SolaHomeModule_Tests";
 			sourceTree = "<group>";
 		};
-		75C96E52046FDEA894965077D22FB42F /* SolaHomeModule */ = {
+		6CE86DF7C23ACC8CC67E7DF3EF7CFC27 /* pod */ = {
 			isa = PBXGroup;
 			children = (
-				05913616296D48AFCE074662D82F0149 /* TestController.h */,
-				0F439FCC930475CE301B06672117C96C /* TestController.m */,
+				D6D7DD1DD90344AEC93B9F921D9894C4 /* SolaHomeModule */,
 			);
-			name = SolaHomeModule;
-			path = SolaHomeModule;
+			name = pod;
+			path = pod;
 			sourceTree = "<group>";
 		};
 		778606D5FF2F934B11EBF31C35276646 /* FBSnapshotTestCase */ = {
@@ -725,15 +724,6 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		BDB6FAD74D2763524D1FD48A7AE41A4E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				75C96E52046FDEA894965077D22FB42F /* SolaHomeModule */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
 			isa = PBXGroup;
 			children = (
@@ -779,6 +769,16 @@
 			);
 			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
+			sourceTree = "<group>";
+		};
+		D6D7DD1DD90344AEC93B9F921D9894C4 /* SolaHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				3DB2FD719E49FFB63DB5020A90BE6F59 /* TestController.h */,
+				08D219D53E02CF0BE8F125CE24F1FD0A /* TestController.m */,
+			);
+			name = SolaHomeModule;
+			path = SolaHomeModule;
 			sourceTree = "<group>";
 		};
 		D75ED61726182ECECE2F7C533B948E4F /* Support Files */ = {
